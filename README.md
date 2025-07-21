@@ -41,8 +41,6 @@ Login/Register interface
 🙋‍♂️ Author
 Chetan Sharma
 📧 chetanprakashshama@gmail.com
-🔗 LinkedIn
-💻 GitHub
 
 🌟 Show Your Support
 If you found this project helpful or interesting, feel free to ⭐ star this repository. Your support is appreciated!
