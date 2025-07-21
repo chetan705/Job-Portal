@@ -11,7 +11,7 @@ const userRoutes = require("./routes/user");
 
 const app = express();
 
-const MONGO_URI = process.env.MONGO_URI || `mongodb+srv://chetanprakashshama:demo123@cluster0.dr6kt.mongodb.net/demo`;
+const MONGO_URI = process.env.MONGO_URI;
 
 app.use(bodyParser.json());
 
