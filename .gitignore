@@ -1,6 +1,36 @@
-node_modules/
-.env
+# Ignore node_modules in all subdirectories
+**/node_modules/
+
+# Ignore environment files
+**/.env
+**/config/.env
+
+# Ignore logs
+*.log
+logs
+npm-debug.log*
+
+# OS junk
 .DS_Store
-/dist
-/build
-node_modules/
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build outputs
+job-frontend/build/
+job-backend/build/
+
+# Coverage and test
+coverage/
+*.test.js
+
+
+# Temporary or backup files
+*.swp
+*.bak
+*.tmp
+
+# Ignore any .tgz packages
+*.tgz
