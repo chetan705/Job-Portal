@@ -34,3 +34,6 @@ coverage/
 
 # Ignore any .tgz packages
 *.tgz
+.env
+job-backend/config/.env
+job-backend/config/.env
